@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(0, 193, 0);    
+}
+h1{
+    text-align: center;
+    margin: 30px 0 ;
+    color: rgb(9, 12, 172);
+}
+.form{
+    border: 1px solid green;
+    width:50%;
+    margin: 0 auto;
+}
+ 
+.form-data h2 {
+    text-align: center;
+    margin: 10px ;
+    color: rgb(59, 7, 101);
+}
+
+ 
+input {
+    width: 60%;
+    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    
+}
+label{
+    display: block;
+    font-size: 1.4em;
+    color: rgb(1, 1, 61);
+    text-align: center;
+}
+textarea {
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+}
